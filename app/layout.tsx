@@ -2,13 +2,13 @@ import type {Metadata} from 'next';
 import './globals.css'; // Global styles
 
 export const metadata: Metadata = {
-  title: 'Imajinary Coffee & Space',
-  description: 'A cozy, indie hangout spot in Semarang offering coffee, dim sum, and live music.',
+  title: 'Imajinary Coffee & Space Semarang - Kopi, Dim Sum, Live Music',
+  description: 'Cafe cozy di Semarang dengan menu kopi specialty, dimsum, dan live music. Tempat nongkrong asik di Kota Semarang.',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body suppressHydrationWarning>{children}</body>
     </html>
   );
