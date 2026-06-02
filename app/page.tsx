@@ -319,7 +319,7 @@ export default function Home() {
 
       {/* Navigation */}
       <nav className="nav">
-        <div>Imaginary Coffee & Space</div>
+        <div>Imajinary Coffee & Space</div>
         <div>Semarang, ID</div>
       </nav>
 
@@ -329,7 +329,7 @@ export default function Home() {
         <CoffeeCup className="illust illust-float interactive illust-coffee" />
 
         <h1 className="hero-title reveal" style={{ alignItems: 'flex-start' }}>
-          <span className="skewed">IMAGINARY</span>
+          <span className="skewed">IMAJINARY</span>
           <span className="text-outline">COFFEE</span>
           <span className="skewed" style={{ color: 'var(--color-blue)', marginTop: '0.05em' }}>& SPACE</span>
         </h1>
@@ -358,7 +358,7 @@ export default function Home() {
       {/* About / Identity */}
       <section className="section-grid">
         <div className="col about-col bg-pink reveal">
-          <p className="quote">"Tempat ini cukup menarik.. Asyik juga buat sekedar nongkrong.. Banyak pilihan minuman dari kopi dan non kopi serta cemilan.."</p>
+          <p className="quote">&ldquo;Tempat ini cukup menarik.. Asyik juga buat sekedar nongkrong.. Banyak pilihan minuman dari kopi dan non kopi serta cemilan..&rdquo;</p>
           <p className="quote-author">Updates from customers</p>
         </div>
         <div className="col stats-col bg-purple reveal" style={{ transitionDelay: '0.2s', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
